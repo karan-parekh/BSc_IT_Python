@@ -1,6 +1,6 @@
 # PYTHON PROGRAM TO CHECK IF THE GIVEN NUMBER IS A PALINDROME
 
-num = int(input("Ennter a number: "))
+num = int(input("Enter a number: "))
 temp = num
 rev_num = 0
 

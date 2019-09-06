@@ -1,4 +1,7 @@
-# RETURN TRUE FOR VOWEL, FALSE IF NOT
+# PYTHON PROGRAM TO RETURN TRUE FOR VOWEL, FALSE IF NOT
+
+inp = input("Enter a character: ")
+
 
 def is_vowel(a):
     vowels = ["a", "e", "i", "o", "u"]
@@ -7,6 +10,8 @@ def is_vowel(a):
     else:
         return False
 
-while True:
-        inp = input("Enter a character: ")
-        print(is_vowel(inp))
+
+if is_vowel(inp):
+    print("{} is a vowel".format(inp))
+else:
+    print("{} is not a vowel".format(inp))

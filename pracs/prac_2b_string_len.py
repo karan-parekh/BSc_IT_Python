@@ -1,4 +1,7 @@
-# FUNCTION TO CALCULATE THE LENGTH OF A STRING
+# PYTHON FUNCTION TO CALCULATE THE LENGTH OF A STRING
+
+inp = input("Enter a string:")
+
 
 def length(string):
 	c = 0
@@ -6,6 +9,7 @@ def length(string):
 		c += 1
 	return c
 
-while True:
-        inp = input("Enter a string:")
-        print("Length of the string is: ", length(inp))
+
+l = length(inp)
+
+print("Length of the given string is: ", l)

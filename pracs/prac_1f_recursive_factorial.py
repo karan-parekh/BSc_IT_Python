@@ -1,4 +1,7 @@
-# RECURSIVE FACTORIAL
+# PYTHON PROGRAM FOR A RECURSIVE FACTORIAL FUNCTION
+
+inp = int(input("Enter a number: "))
+
 
 def facto(num):
 	if num == 0:
@@ -7,4 +10,5 @@ def facto(num):
 		f = num * facto(num - 1)
 		return f
 
-print(facto(5))
+
+print(facto(inp))

@@ -1,6 +1,6 @@
 # PYTHON PROGRAM TO REVERSE A VALUE
 
-num = int(input("Ennter a number: "))
+num = int(input("Enter a number: "))
 rev_num = 0
 
 while num > 0:

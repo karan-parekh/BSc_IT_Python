@@ -1,19 +1,21 @@
-# ARMSTRONG NUMBER
-# num = int(input("Enter a number: "))
-# sum = 0
+# PYTHON PROGRAM TO CHECK IF A NUMBER IS AN ARMSTRONG NUMBER
+num = int(input("Enter a number: "))
+sum = 0
 
-def is_armstrong(num):
+
+def is_armstrong(n):
     sum = 0
-    temp = num
+    temp = n
     while temp > 0:
         digit = temp % 10
         sum += digit ** 3
         temp //= 10
 
-    if num == sum:
+    if n == sum:
         return True
 
-for i in range(1, 10001):
-    if is_armstrong(i):
-        print(i)
-        
+
+if is_armstrong(num):
+    print("{} is an Armstrong number".format(num))
+else:
+    print("{} is not an Armstrong number".format(num))
