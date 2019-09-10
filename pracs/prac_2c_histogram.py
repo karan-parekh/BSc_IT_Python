@@ -1,8 +1,11 @@
 # PYTHON PROGRAM TO PRINT HISTOGRAM FOR GIVEN LIST
 
-l = [3, 7, 3, 2]
+# initializing list of vlaues
+values = [4, 7, 4, 2]
 
-for i in l:
-	for x in range(i):
-		print("#", end="")
-	print()
+# for loop to iterate for each number in the list of vlaues 
+for v in values:
+	# for loop to print "#" for v number of times
+	for x in range(v):
+		print("#", end="") 
+	print()  # for new line
