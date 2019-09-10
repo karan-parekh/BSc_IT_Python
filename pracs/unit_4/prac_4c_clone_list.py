@@ -6,7 +6,7 @@ list_2 = []  # empty list to store elements from list_1
 
 # for loop to iterate list_1
 for x in list_1:
-	list_2.append(x)  # append each element from list_1 to list_2 
+	list_2.append(x)  # append each element (x) from list_1 to list_2 
 
 # output
 print("Original list: ", list_1)
