@@ -6,8 +6,8 @@ start = time.perf_counter()
 
 # dummy function
 def do_something(seconds):
-	print("Sleeping 1 second...")
-	time.sleep(1)
+	print("Sleeping {} seconds...".format(seconds))
+	time.sleep(seconds)
 	print("Done Sleeping")
 
 # an empty list to append all threads
