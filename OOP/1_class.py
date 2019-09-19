@@ -1,9 +1,7 @@
 # BASICS OF A CLASS
 
 class User:
-	"""This is a docstring for the class User.
-	It can be used to write a help text and provide
-	information and usage for the class"""
+	"""This is a docstring for the class User."""
 
     # The __init__ is a special method used to initialise any class
     # The parameters passed in the init method are necessary to create an instance of that class
@@ -26,7 +24,6 @@ class User:
 
 # initialized an instance of class User called user
 user = User("Tom", "Cruise", 16051988)  # dob is 16/05/1988 --> dd/mm/yyy
-# 			 first	last	 dob
 
 # prints the dob of user using get_fullname() and get_dob() methods
 print(user.get_fullname(), " was born on ", user.get_dob())
