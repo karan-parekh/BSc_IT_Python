@@ -23,7 +23,7 @@ class Number:
 		return left.value + right.value
 
 
-num1 = Number('21')
-num2 = Number(34.2)
+num1 = Number('21')  # num1.value is of type str
+num2 = Number(34.2)  # num2.value is of type float
 
-print(num1 + num2)
+print(num1 + num2)   # prints addition of two different numerical data types
