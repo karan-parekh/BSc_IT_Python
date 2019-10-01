@@ -11,7 +11,6 @@ def do_something():
 
 # function calls
 do_something()
-do_something()
 
 finish = time.perf_counter()
 
